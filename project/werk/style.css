@@ -1,0 +1,102 @@
+body {
+
+    background-color: gray;  
+    
+
+    background-image:url('vomar.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+   }
+   
+   .left{
+   display: flex;
+   flex-wrap: wrap;
+   
+   
+   align-items: flex-start;
+   width:50% ;
+   flex-direction: column;
+   }
+   
+   #cool{
+       width: 300px;
+       height: 400px;
+       background: grey;
+       animation: mymove 20s infinite;
+     }
+   
+     @keyframes mymove {
+       from {background-color: gray;}
+       to {background-color: lightgray;}
+       50% {font-size: 100px;}
+     }
+   
+   
+    
+   
+    
+   
+   .right{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   font-size:100px ;
+   width: 50vw ;
+   
+   text-size-adjust:50% ;
+   margin-right: auto;
+       margin-left: auto;
+   }
+   
+   .footer {
+       display: flex;
+       flex-direction: row;
+       padding: 20px;
+       flex-grow: 4;
+       color: white;
+      justify-content: space-around;
+      border-style: solid;
+      border-radius: 3px;
+   }
+   
+   .most{
+   display: flex;
+   justify-content: flex-end;
+   color: rgb(213, 207, 207);
+   }
+   
+   .link{
+       display: flex;
+       justify-content: flex-end;
+       color: black;
+       width: 100%;
+       background-color:rgb(86, 84, 84); 
+       margin-right: auto;
+       margin-left: auto;
+   }
+   
+   .h1{
+   font-size: 60px ;
+   text-size-adjust:auto ;
+   }
+   
+   .right a:hover {
+       background-color: white;
+       color: black;
+     }
+   
+    
+   
+   
+     @media screen and (min-with:480px){
+       a{
+         color: #555;
+       }
+     }
+   
+     #link{
+       display: flex;
+       justify-content: center;
+      
+     }

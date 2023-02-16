@@ -1,0 +1,101 @@
+
+   
+ body{
+background-color: gray;
+
+
+ }
+  input[type=text]:focus {
+    border-color: red;
+  }
+ 
+
+  p.solid {border-style: solid;}
+
+textarea{
+  border-color: black;
+
+  border-width: 1px;
+}
+
+.footer {
+	display: flex;
+    flex-direction: row;
+	padding: 20px;
+	flex-grow: 4;
+    background-color: rgb(86, 84, 84);
+   justify-content: space-around;
+   
+}
+
+.navbar {
+    flex-wrap: nowrap;
+    display: flex ;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(86, 84, 84);
+}
+
+h1{
+display: flex;
+justify-content: center;
+}
+
+.name{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+
+}
+
+#fname{
+background-color: gray;
+
+}
+
+h2{
+display: flex;
+justify-content: center;
+}
+
+#lname{
+    background-color: gray;
+}
+
+#email{background-color: gray;}
+
+#phone{
+    background-color: gray;
+}
+
+#pwd{background-color: gray;}
+
+#pascalwiersma{
+width: 100%;
+background-color: gray;
+}
+
+#geheim:hover{
+    transform: rotateX(180deg);
+transition:  3s;
+transition-delay:4s ;
+}
+
+#submit{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.mid{
+    display: flex;
+justify-content: center;
+}
+
+.vragen{
+width: 33%;
+}
+
+
